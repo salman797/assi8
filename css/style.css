@@ -1,0 +1,303 @@
+/*start nav*/
+.navbar{
+    background-color: transparent !important;
+    position: fixed;
+    width: 100%;
+}
+.navbar li a,.navbar a{
+color: white !important;
+}
+.navbar a{
+    text-transform: uppercase;
+}
+.navbar li a{
+    text-transform: capitalize;
+}
+.navbar li button{
+    border-radius: 15px;
+    background-color: transparent;
+    border-color: skyblue;
+    color: white;
+    padding: 0px 10px;
+    margin-top: 5px;
+}
+#bluea{
+    color: blue !important;
+}
+/*start home*/
+.home{
+    width: 100%;
+    height: 550px;
+    background-color:darkblue;
+}
+.home button{
+    width: 125px;
+    border-radius: 15px;
+    color: white;
+    background-color: skyblue;
+}
+.home img{
+    width: 45px;
+    
+}
+.col-12 .pic img{
+    height: 275px;
+    width: 300px;
+}
+.home h1{
+    text-transform: capitalize;
+}
+/*start line*/
+.line{
+    width: 100%;
+    height: 60px;
+    background-color: gainsboro;
+}
+.line img{
+    width: 60px;
+}
+/*start about*/
+.about{
+    width: 100%;
+    height: 400px;
+}
+.about button{
+    color: skyblue;
+    border-color: skyblue;
+    background-color: transparent;
+    padding: 0px 20px;
+}
+.about h1{
+    text-transform: uppercase;
+}
+/*start about1*/
+.about1{
+    width: 100%;
+    height: 600px;
+    background-color: gainsboro;
+}
+.about1 h1{
+    color: darkblue;
+}
+.drop{
+    background-color: white;
+    margin: 5px ;
+}
+.drop a{
+    color: black;
+}
+.about1 img{
+    height: 250px;
+}
+
+/*start skills*/
+.skills{
+    width: 100%;
+    height: 400px;
+
+}
+.skills img{
+    height: 250px;
+}
+@media(max-width: 995px){
+    .skills{
+        width: 100%;
+        height: 900px;
+    
+    }
+}
+/*start service*/
+.service{
+    width: 100%;
+    height: 420px;
+    background-color: gainsboro;
+
+}
+.service h1{
+    text-transform: uppercase;
+}
+.card{
+    height: 200px;
+    background-color: white;
+}
+.card img{
+    height: 50px;
+    width: 50px;
+}
+@media(max-width: 995px){
+    .service{
+        width: 100%;
+        height: 1120px;
+    }
+}
+/*start call*/
+.call{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(14,58,255,0.4),rgba(14,58,255,0.4)),url(../images/cta-bg.jpg);
+    background-size: 100% 100%;
+}
+.call h1{
+    text-transform: capitalize;
+}
+.call button{
+    border-radius: 15px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    padding: 0px 15px;
+}
+/*start team*/
+.team{
+    width: 100%;
+    height: 675px;
+    background-color: gainsboro;
+
+}
+.team h1{
+    text-transform: uppercase;
+}
+.team-card{
+    background-color: white;
+    margin: 10px;
+}
+.team img{
+    height: 150px;
+    border-radius: 100px;
+}
+#sm{
+    height: 40px;
+}
+@media(max-width: 995px){
+    .team{
+        height: 1200px;
+    }
+}
+/*start pricing*/
+.pricing{
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+}
+.pricing h1{
+    text-transform: uppercase;
+}
+.plan{
+    background-color: white;
+    margin: 10px;
+}
+#wrong{
+    text-decoration: line-through;
+}
+#planbl{
+color: white;
+border-radius: 20px;
+padding: 5px 10px;
+background-color: skyblue;
+}
+#planwhi{
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: skyblue;
+    background-color: transparent;
+    border-color: turquoise;
+}
+@media(max-width: 995px){
+    .pricing{
+        height: 1200px;
+    }
+}
+/*start question*/
+.question{
+    width: 100%;
+    height: 500px;
+    background-color: gainsboro;
+}
+.question h1{
+    text-transform: uppercase;
+}
+.btn{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 0px 300px 0px 0px;
+    margin-left: 150px;
+    
+}
+@media(max-width: 995px){
+    .btn{
+        margin-left: 0px;
+    }
+}
+/*start contact*/
+.contact{
+    width: 100%;
+    height: 750px;
+
+}
+.contact h1{
+    text-transform: uppercase;
+}
+.contact img{
+    height: 50px;
+}
+#map{
+    height: 300px;
+    width: 450px;
+}
+#button{
+    margin-top: 20px;
+    margin-left: 250px;
+    color: white;
+    border-radius: 20px;
+    padding: 0px 15px;
+    background-color: turquoise;
+}
+@media(max-width: 995px){
+    .contact{
+        height: 1300px;
+    }
+}
+/*start newsteller*/
+.newsteller{
+
+    background-color: gainsboro;
+    width: 100%;
+    height: 200px;
+}
+.newsteller input{
+    border-radius: 20px;
+    
+}
+#subscribe{
+    background-color: turquoise;
+}
+/*start end*/
+.end{
+    width: 100%;
+    height: 400px;
+}
+.end li {
+    margin: 20px;
+}
+.end img{
+    height: 50px;
+    margin: 0px 10px;
+}
+@media(max-width: 995px){
+    .end{
+        height: 800px;
+    }
+}
+@media(max-width: 771px){
+    .end{
+        height: 1200px;
+    }
+}
+/*start footer*/
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
